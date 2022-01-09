@@ -1,0 +1,28 @@
+<a
+  href="/"
+  class="<%= product.category %> sm:p-0 my-1 px-4 w-full flex sm:block sm:rounded-2xl sm:basis-[300px] sm:min-h-[330px] grow-0 sm:result-card sm:hover:shadow-md sm:hover:translate-y-[-10px] sm:m-5 relative sm:border"
+>
+  <div
+    class="top w-[100px] h-[100px] shrink-0 sm:mr-0 mr-5 rounded-lg sm:w-full sm:h-[200px]"
+  >
+    <img
+      src="/images/products/<%= product.category %>/<%= product.img %>"
+      class="h-full w-full object-cover rounded-xl"
+      alt="product image <%= product.title %>"
+    />
+  </div>
+  <div class="w-full h-full flex flex-col justify-between">
+    <div class="body sm:px-5 sm:text-gray-600 sm:mt-3">
+      <div class="title capitalize text-md font-bold sm:mb-2">
+        <%= product.name %>
+      </div>
+      <div class="desc text-base"><%= product.desc.slice(0, 30) %>...</div>
+    </div>
+    <div
+      class="bottom flex justify-between items-center sm:px-5 pt-1 sm:py-3 sm:text-lg text-base"
+    >
+      <div class="price">$ <%= product.price %></div>
+      <div class="size uppercase"><%= product.size %></div>
+    </div>
+  </div>
+</a>

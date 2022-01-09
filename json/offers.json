@@ -1,0 +1,26 @@
+[
+  {
+    "name": "epic deals",
+    "img": "burger.jpg",
+    "small": "on lagendary food items",
+    "off": "40% off"
+  },
+  {
+    "name": "lagendary deals",
+    "img": "chicken.jpg",
+    "small": "get epic deals on items",
+    "off": "60% off"
+  },
+  {
+    "name": "veg food deals",
+    "img": "pizza.jpg",
+    "small": "vegiterian offers",
+    "off": "55% off"
+  },
+  {
+    "name": "black friday deals",
+    "img": "b3.png",
+    "small": "offer on black friday",
+    "off": "40% off"
+  }
+]

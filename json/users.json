@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "username": "Jhon doe",
+    "quote": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, temporibus. Laudantium pariatur optio error maxime enim! Qui quam consequatur impedit!",
+    "img": "u1.jpg",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "username": "Rahul Kumar",
+    "quote": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, temporibus. Laudantium pariatur optio error maxime enim! Qui quam consequatur impedit!",
+    "img": "u2.jpg",
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "username": "Awesh Khan",
+    "quote": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, temporibus. Laudantium pariatur optio error maxime enim! Qui quam consequatur impedit!",
+    "img": "u3.jpg",
+    "rating": 5
+  }
+]

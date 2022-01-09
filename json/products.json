@@ -1,0 +1,386 @@
+[
+  {
+    "id": 1,
+    "name": "burger",
+    "items": [
+      {
+        "id": 1,
+        "name": "Crispy Veg Burger",
+        "category": "burger",
+        "desc": "Crispy veg patty burger, our best seller.",
+        "price": 55,
+        "img": "b1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Crispy Veg Double Patty",
+        "category": "burger",
+        "desc": "Double up our best selling crispy veg burger",
+        "price": 75,
+        "img": "b2.png"
+      },
+      {
+        "id": 3,
+        "name": "Crispy Chicken Burger",
+        "category": "burger",
+        "desc": "Crispy chicken patty burger, our best seller.",
+        "price": 80,
+        "img": "b3.jpg"
+      },
+      {
+        "id": 4,
+        "name": "BK Classic Veg",
+        "category": "burger",
+        "desc": "Our tribute to classic american taste. BK veg patty, garden fresh crispy lettuce, juicy tomato & our signature sauce.",
+        "price": 79,
+        "img": "b4.jpg"
+      },
+      {
+        "id": 5,
+        "name": "BK Classic Chicken",
+        "category": "burger",
+        "desc": "Our tribute to classic american taste. BK chicken patty, garden fresh crispy lettuce, juicy tomato & our signature sauce.",
+        "price": 99,
+        "img": "b5.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Crispy Chicken Double Patty",
+        "category": "burger",
+        "desc": "Double up the crispy chicken patty burger.",
+        "price": 119,
+        "img": "b6.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Chicken Tandoor Grill Burger",
+        "category": "burger",
+        "desc": "Real tandoori chicken burger, try it.",
+        "price": 149,
+        "img": "b7.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "pizza",
+    "items": [
+      {
+        "id": 1,
+        "name": "Momo Mia Pizza-Veg",
+        "category": "pizza",
+        "desc": "Epic combination of signature pan crust, delicious paneer & veg momos topped with spicy Schezwan sauce, onion, capsicum, sweet corn & 100% mozzarella ",
+        "size": "medium",
+        "price": "449",
+        "img": "p1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Momo Mia Pizza-Non Veg",
+        "category": "pizza",
+        "desc": "Epic combination of signature pan crust, delicious chicken momos topped with spicy Schezwan sauce, Schezwan meatballs, onion, capsicum & 100% mozzarella ",
+        "size": "small",
+        "price": "249",
+        "img": "p2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Margherita",
+        "category": "pizza",
+        "desc": "Cheese  ",
+        "size": "extra large",
+        "price": "799",
+        "img": "p3.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Tandoori Paneer",
+        "category": "pizza",
+        "desc": "Spiced paneer, Onion, Green Capsicum & Red Paprika in Tandoori Sauce  ",
+        "size": "medium",
+        "price": "649",
+        "img": "p4.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Veggie Supreme",
+        "category": "pizza",
+        "desc": "Black Olives, Green Capsicum, Mushroom, Onion, Red Paprika, Sweet Corn  ",
+        "size": "large",
+        "price": "849",
+        "img": "p5.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Double Paneer Supreme",
+        "category": "pizza",
+        "desc": "Spiced Paneer, Herbed Onion & Green Capsicum, Red Paprika ",
+        "size": "extra small",
+        "price": "149",
+        "img": "p6.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Veg Kebab Surprise",
+        "category": "pizza",
+        "desc": "Veg Kebab, Onion, Green Capsicum, Tomato & Sweet Corn in Tandoori Sauce  ",
+        "size": "small",
+        "price": "549",
+        "img": "p7.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "chicken",
+    "items": [
+      {
+        "id": 1,
+        "name": "ROASTED CHICKEN WINGS PERI-PERI",
+        "category": "chicken",
+        "desc": "ROASTED CHICKEN WINGS PERI-PERI",
+        "price": "249",
+        "img": "c1.png"
+      },
+      {
+        "id": 2,
+        "name": "ROASTED CHICKEN WINGS PERI-PERI",
+        "category": "chicken",
+        "desc": "ROASTED CHICKEN WINGS PERI-PERI",
+        "price": "299",
+        "img": "c2.png"
+      },
+      {
+        "id": 3,
+        "name": "ROASTED CHICKEN WINGS PERI-PERI",
+        "category": "chicken",
+        "desc": "ROASTED CHICKEN WINGS PERI-PERI",
+        "price": "199",
+        "img": "c3.png"
+      },
+      {
+        "id": 4,
+        "name": "ROASTED CHICKEN WINGS PERI-PERI",
+        "category": "chicken",
+        "desc": "ROASTED CHICKEN WINGS PERI-PERI",
+        "price": "349",
+        "img": "c4.png"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "rolls",
+    "items": [
+      {
+        "id": 1,
+        "name": "ThaiCrate",
+        "category": "rolls",
+        "desc": "ThaiCrate",
+        "price": "149",
+        "img": "r1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Live Tandoor",
+        "category": "rolls",
+        "desc": "Live Tandoor",
+        "price": "199",
+        "img": "r2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Hira Sweets",
+        "category": "rolls",
+        "desc": "Hira Sweets",
+        "price": "699",
+        "img": "r3.jpg"
+      },
+      {
+        "id": 4,
+        "name": "The Chatter House",
+        "category": "rolls",
+        "desc": "The Chatter House",
+        "price": "349",
+        "img": "r4.jpg"
+      },
+      {
+        "id": 5,
+        "name": "King shawarma ",
+        "category": "rolls",
+        "desc": "King shawarma ",
+        "price": "299",
+        "img": "r5.jpg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "cake",
+    "items": [
+      {
+        "id": 1,
+        "name": "Yellow Butter Cake",
+        "category": "cake",
+        "desc": "Many a kid's birthday party is celebrated with a sheet-cake version of this dessert that's topped with billows of chocolate frosting and rainbow sprinkles. Yellow butter cakes often involve creaming the butter and sugar together (in modern times, this is done with an electric mixer) then adding the dry and wet ingredients, but there are also “dump” versions where all of the ingredients are thrown into a bowl and simply mixed together.",
+        "price": "149",
+        "img": "yellow butter cake.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Pound Cake",
+        "category": "cake",
+        "desc": "Named because it's made with a pound of each of the main ingredients (flour, butter, and sugar), this cake doesn’t rise much while baking, and the texture is very dense. Our version boasts matcha and cocoa powder, but classic recipes have nothing but vanilla extract to flavor it. Bake up one of these beauties in a loaf or Bundt pan.",
+
+        "price": "199",
+        "img": "pound cake.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Red Velvet Cake",
+        "category": "cake",
+        "desc": "This is a true favorite, especially in the south. Made with either butter or oil, red velvet cake's color classically comes from the reaction of buttermilk and cocoa powder. Modern versions often achieve this hue by using red food coloring, or in the case of the raspberry velvet cake, shown here, pink.",
+
+        "price": "699",
+        "img": "red valvet cake.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Carrot Cake",
+        "category": "cake",
+        "desc": "Leavened with baking soda and baking powder, this shortened cake uses oil as its main fat rather than butter. The addition of grated carrots makes the cake extra moist. Carrot cake is also flavored with warm spices and frosted with a rich cream cheese frosting. Pecans or walnuts are optional!",
+        "price": "349",
+        "img": "carrot cake.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Sponge Cake",
+        "category": "cake",
+        "desc": "This is a foam-style cake that has no artificial leaveners (baking powder or baking soda). It gets its volume solely from whipped eggs —either whole eggs or simply whites. This cake takes well to being soaked in a flavored syrup (try soaking with a lemon syrup and serve with a dollop of lemon curd), layered with whipped cream and smashed berries, or if baked up thin, rolled in the Christmas classic, Buche de Noel.",
+
+        "price": "299",
+        "img": "sponge cake.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Genoise Cake",
+        "category": "cake",
+        "desc": "Genoise is what a sponge cake is called in Italy or France. In this cake, egg yolks, whites and sugar are beaten together until mousse-like. Next, flour, and either oil or butter, are folded in. This type of sponge cake is more moist and tender than its sponge cake cousin.",
+        "price": "299",
+        "img": "genoise cake.jpg"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "fries",
+    "items": [
+      {
+        "id": 1,
+        "name": "Deep Fried Soft Crabs",
+        "category": "fries",
+        "desc": " Prepare artichokes and soak them in fresh milk. Beat eggs and soak live crabs in them. Drain crabs and artichokes and sprinkle with flour.Deep fry crabs and artichoke.",
+        "price": "1149",
+        "img": "f1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Potato Croquettes",
+        "category": "fries",
+        "desc": "Peel potatoes, boil them, and mash them into a puree with butter. Season with salt, white pepper, nutmeg, grated cheese, and an egg yolk. Form the croquettes. Pass them through flour, a beaten egg, and breadcrumbs. Fry in hot oil.",
+        "price": "1299",
+        "img": "f2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "samosa",
+    "items": [
+      {
+        "id": 1,
+        "name": "Keema Samosa",
+        "category": "samosa",
+        "desc": "This Samosa finds a special mention in Ramadan and is a variation, where the filling is made of minced mutton and a melange of spices and yoghurt. This samosa is sealed with flour paste and is then left for drying. ",
+        "price": "10",
+        "img": "s1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Aloo Samosa",
+        "category": "samosa",
+        "desc": " This is one of the most common samosas that you can enjoy as it's easily available across the country. It's crispy, flaky and the filling is something to die for in the chilled winters. With a spicy potato filling, this samosa is best enjoyed with a cup of hot tea.",
+        "price": "100",
+        "img": "s2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Maggi Samosa",
+        "category": "samosa",
+        "desc": "The love for Maggi is world-known, and how about a samosa stuffed with it? Don’t be surprised, as we bring you the recipe of Maggi Samosa. The procedure for making samosa is the same, the only difference is that you must add the freshly made Maggi as the stuffing of samosas, and then deep fry it. ",
+        "price": "120",
+        "img": "s3.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Chilli Cheese Samosa",
+        "category": "samosa",
+        "desc": "This samosa is prepared by making a mixture of cheese, boiled potatoes and green chillies. This samosa is super-delicious in taste and is baked to perfection at 200 degrees C for 15 minutes. However, this samosa is also best enjoyed as fried only. ",
+        "price": "50",
+        "img": "s4.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Chocolate Samosa",
+        "category": "samosa",
+        "desc": "This sweet samosa is made by stuffing it with a mixture of melted chocolate and dry fruits and then sealing it. Further, it's deep-fried and then dipped in thick sugar syrup. ",
+        "price": "40",
+        "img": "s5.jpg"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "noodle",
+    "items": [
+      {
+        "id": 1,
+        "name": "Rice stick noodles ",
+        "category": "noodle",
+        "desc": "Rice stick noodles are flat and translucent and can be either wide or slender. They are not difficult to spot and they are usually sold in bundles.  ",
+        "price": "199",
+        "img": "n1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Egg noodles ",
+        "category": "noodle",
+        "desc": " One of the most common noodles used in Asian cuisine, these noodles are also known as Chinese egg noodles or E-fu noodles.",
+        "price": "199",
+        "img": "n2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Hokkien noodles ",
+        "category": "noodle",
+        "desc": "Thick in texture and yellow in colour, these noodles are prepared from egg and wheat flour. ",
+        "price": "199",
+        "img": "n3.jpg"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "pasta",
+    "items": [
+      {
+        "id": 1,
+        "name": "creamy pasta with chilli",
+        "category": "pasta",
+        "desc": "soft, saucy and creamy pasta with extra sauce and chilli",
+        "price": "30",
+        "img": "p1.jpg"
+      }
+    ]
+  }
+]

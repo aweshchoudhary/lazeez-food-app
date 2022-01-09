@@ -1,0 +1,195 @@
+<title>Lazeez Food | Home</title>
+
+<section class="sm:py-10 py-10 px-5 sm:px-20 hero">
+  <div
+    class="item flex sm:flex-row flex-col h-full w-full items-center justify-between"
+  >
+    <div
+      class="img w-1/2 sm:block hidden h-full flex items-center justify-center mr-10"
+    >
+      <img
+        src=" /images/banner/b0.png"
+        class="h-full w-auto"
+        alt="banner hero image"
+      />
+    </div>
+    <div class="details sm:w-1/2 h-full text-gray-600 sm:text-left text-center">
+      <div class="heading capitalize sm:text-4xl text-2xl font-bold mb-2">
+        get delicious and tasty food with fast delivery
+      </div>
+      <div class="para mb-5 sm:text-lg text-xs">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit autem
+        aut repudiandae.
+      </div>
+      <a
+        href="/"
+        class="hover:bg-black btn sm:px-10 sm:py-3 px-5 py-2 border-2 border-gray-600 bg-gray-600 text-white rounded-lg text-base sm:text-md uppercase"
+        >order now</a
+      >
+      <a
+        href="/"
+        class="hover:bg-gray-600 hover:text-white btn sm:px-10 sm:py-3 px-5 py-2 border-2 border-gray-600 text-gray-600 rounded-lg text-base sm:text-md uppercase"
+        >explore now</a
+      >
+    </div>
+  </div>
+</section>
+
+<section class="menu-cards w-full bg-gray-50 sm:py-10 py-10 px-3">
+  <div
+    class="heading sm:text-4xl text-xl text-gray-600 text-center font-bold uppercase"
+  >
+    Our Menu
+  </div>
+  <div class="cards flex items-center py-10 mx-auto w-full overflow-x-scroll">
+    <% offers.forEach((e)=>{ %>
+    <a
+      href="/"
+      class="banner-card relative rounded-3xl sm:h-[300px] sm:w-[500px] w-[250px] h-[200px] shrink-0 sm:m-5 m-2"
+    >
+      <div
+        class="black absolute top-0 left-0 h-full w-full bg-black opacity-50"
+      ></div>
+      <div class="text absolute bottom-0 sm:p-10 p-4 left-0 uppercase">
+        <div class="heading sm:text-4xl text-2xl font-bold text-white">
+          <%= e.name %>
+        </div>
+        <div class="offer sm:text-4xl text-lg text-white"><%= e.off %></div>
+        <div class="small-text sm:text-lg text-base text-white">
+          <%= e.small %>
+        </div>
+      </div>
+      <img
+        src="/images/banner/<%= e.img %>"
+        class="w-full h-full object-cover"
+        alt="banner image"
+      />
+    </a>
+    <% }) %>
+  </div>
+</section>
+
+<section class="w-full py-10">
+  <div
+    class="heading mx-auto sm:w-1/2 px-5 text-center sm:text-4xl text-2xl text-gray uppercase font-bold text-gray-600"
+  >
+    get delicious and tasting food at your door step
+  </div>
+
+  <div class="nav w-full relative">
+    <div
+      class="flex text-gray-600 flex-wrap w-full items-center justify-center border-y py-2 mt-2"
+    >
+      <% category.forEach((e)=>{ %>
+      <button
+        id="<%= e.name %>"
+        onclick="fetchFood(event, '<%= e.name %>')"
+        class="item-btn hover:text-black sm:text-2xl text-lg font-bold uppercase mx-2 <%= e.default %>"
+      >
+        <%= e.name %>
+      </button>
+      <% }) %>
+    </div>
+  </div>
+  <div class="food-items flex items-center justify-centers px-10 py-10">
+    <% products.forEach((product)=>{ %> <%- include("../components/card",
+    {product}) %> <% }) %>
+  </div>
+</section>
+
+<section class="chef-team w-full pb-10">
+  <h1
+    class="sm:text-4xl text-2xl text-center uppercase text-gray-600 font-bold my-10"
+  >
+    our chef
+  </h1>
+  <div
+    class="chef-imgs w-full px-10 flex items-center justify-center flex-wrap"
+  >
+    <% for(let i=1; i< 5; i++) { %>
+    <div
+      class="chef-img sm:w-[250px] sm:h-[300px] h-[200px] w-full my-2 sm:m-5 flex-auto"
+    >
+      <img
+        src="/images/chef/c<%= i %>.jpg"
+        class="w-full h-full object-cover"
+        alt="chef image"
+      />
+    </div>
+    <% } %>
+  </div>
+</section>
+
+<section class="testimonial w-full h-auto bg-gray-50 py-10">
+  <div
+    class="text-center sm:text-4xl text-2xl text-gray-600 font-bold uppercase mb-5"
+  >
+    testimonial
+  </div>
+  <div
+    class="test-cards sm:px-10 px-4 flex flex-wrap items-center justify-center"
+  >
+    <% users.forEach((e)=>{ %>
+    <div
+      class="test-card rounded-lg sm:w-[300px] w-full sm:h-[300px] bg-white shadow-md p-5 sm:m-5 my-2 flex-auto"
+    >
+      <div class="top flex items-center">
+        <img
+          src="/images/users/<%= e.img %>"
+          class="w-20 h-20 rounded-full object-cover mr-2"
+          alt="user profile image"
+        />
+        <div class="user-details">
+          <div class="username capitalize text-lg text-gray-600">
+            <%= e.username %>
+          </div>
+          <div class="rating flex items-center">
+            <span
+              class="iconify-inline mr-2"
+              data-icon="clarity:star-solid"
+            ></span>
+            <%= e.rating %> star
+          </div>
+        </div>
+      </div>
+      <div class="body mt-2">
+        <div class="quote text-gray-600 text-base text-justify">
+          "<%= e.quote %>"
+        </div>
+      </div>
+    </div>
+    <% }) %>
+  </div>
+</section>
+
+<section class="product-categories py-10 px-4">
+  <div
+    class="text-center sm:text-4xl text-2xl font-bold text-gray-600 uppercase"
+  >
+    product catogories
+  </div>
+  <div class="categories mt-10 flex flex-wrap">
+    <% category.forEach((e)=>{ %>
+    <div
+      class="category uppercase sm:m-5 my-2 bg-white shadow-md flex-auto w-full sm:w-[300px] p-5 rounded-lg"
+    >
+      <div class="heading text-lg font-bold text-gray-800 flex items-center">
+        <%= e.name %>
+      </div>
+      <ul class="items text-gray-600 font-semibold mt-2">
+        <% products.forEach((item)=>{ %> <% if(item.category==e.name){ %>
+        <li class="my-1">
+          <a href="/<%= item.id %>" class="hover:text-black flex items-center">
+            <span
+              class="iconify text-xl"
+              data-icon="ic:twotone-keyboard-double-arrow-right"
+            ></span>
+            <%= item.name %>
+          </a>
+        </li>
+        <% } %> <% }) %>
+      </ul>
+    </div>
+    <% }) %>
+  </div>
+</section>

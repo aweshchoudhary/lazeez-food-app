@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: lightgray #fff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
+
+.navbar {
+  z-index: 1;
+}
+
+.navbar .nav-list .menu-btn .menu-sub {
+  top: 50px;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.navbar .nav-list .menu-btn:hover .menu-sub {
+  top: 40px;
+  visibility: visible;
+  opacity: 1;
+}
+
+.hamburger {
+  z-index: 3;
+}
+
+.owl-nav {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.owl-nav .owl-prev span,
+.owl-nav .owl-next span {
+  font-size: 100px !important;
+}
+
+.owl-nav .owl-next {
+  right: 20px;
+}
+
+.owl-nav .owl-prev {
+  left: 20px;
+}
+
+.food-items {
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.food-items .card {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+/*# sourceMappingURL=main.css.map */

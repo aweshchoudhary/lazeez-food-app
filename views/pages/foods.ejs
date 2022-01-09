@@ -1,0 +1,23 @@
+<section class="products w-full">
+  <div
+    class="categories w-full overflow-x-scroll py-5 border flex items-center sm:justify-center justify-start px-3"
+  >
+    <% category.forEach((e)=>{ %>
+    <a href="/" class="category sm:mr-10 mr-3 flex items-center flex-col">
+      <img
+        src="/images/categories/<%= e.img %>"
+        class="sm:w-16 sm:h-16 w-10 h-10 object-cover rounded-full"
+        alt="category imgae"
+      />
+      <div class="category-name uppercase mt-1 font-bold text-base sm:text-lg">
+        <%= e.name %>
+      </div>
+    </a>
+    <% }) %>
+  </div>
+
+  <div class="result-cards flex flex-wrap py-10 items-center justify-center">
+    <% products.forEach((product)=>{ %> <%-
+    include("../components/card2",{product}) %> <% }) %>
+  </div>
+</section>
